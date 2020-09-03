@@ -8,6 +8,7 @@ const Button = ({ onClick, text }) => (
 )
 
 const App = (props) => {
+  
   const [selected, setSelected] = useState(0)
   const [points, setPoints] = useState({0:0,1:0,2:0,3:0,4:0,5:0})
   const aneLen = anecdotes.length
